@@ -1,0 +1,29 @@
+{
+  "name": "FAS-Server",
+  "version": "1.0.0",
+  "description": "Forwarding Authentication Service - Accepts Bitcoin Lightning Network Payments for Wifi Access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavman2/FAS-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavman2/FAS-Server/issues"
+  },
+  "homepage": "https://github.com/bhavman2/FAS-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lightning-charge-client": "^0.1.10",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
+}
